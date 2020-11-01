@@ -21,8 +21,8 @@ public class SplashScreen extends AppCompatActivity {
                 startActivity(new Intent(SplashScreen.this, MainActivity.class));
                 finish();
             }
-        }, 2000 );
+        }, 1500 );
 
-        Toast.makeText(this, "Splash Screen Started", Toast.LENGTH_SHORT).show();
+    //    Toast.makeText(this, "Splash Screen Started", Toast.LENGTH_SHORT).show();
     }
 }

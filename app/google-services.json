@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "871797542070",
+    "firebase_url": "https://food-delivery-16e19.firebaseio.com",
+    "project_id": "food-delivery-16e19",
+    "storage_bucket": "food-delivery-16e19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871797542070:android:eb177d4d5bad837785aa17",
+        "android_client_info": {
+          "package_name": "com.ariful.fooddeliveryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871797542070-o2odn9bio6ra3u81gke0c4gvhtiifccr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQR8udGUixgBqKlmjBntMzBzwpVJuzd5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871797542070-o2odn9bio6ra3u81gke0c4gvhtiifccr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
