@@ -1,17 +1,20 @@
 apply plugin: 'com.android.application'
-//add this line for this project
+//add this line from https://console.firebase.google.com/u/0/project/foods-delivery-e7232/overview
 apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 29
-
+    //buildToolsVersion "29.0.3"
     defaultConfig {
         applicationId "com.ariful.fooddeliveryapp"
-        minSdkVersion 21
-        targetSdkVersion 28
+
+        minSdkVersion 21    //from stackoverflow
+        targetSdkVersion 28 //from stackoverflow
+
         versionCode 1
         versionName "1.0"
-        multiDexEnabled true
+
+        multiDexEnabled true    //from stackoverflow
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -42,22 +45,21 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-    //picasso dependency for Image showing and recycler view and cardview
+    //recycler view and cardview
     implementation "androidx.recyclerview:recyclerview:1.1.0"
     implementation "androidx.cardview:cardview:1.0.0"
+    //picasso dependency for Image showing and
     implementation 'com.squareup.picasso:picasso:2.71828'
 
-    //firebase section
-    implementation platform('com.google.firebase:firebase-bom:26.0.0')
-    implementation 'com.google.firebase:firebase-analytics'
-
+    //---------firebase section-----------
     // Import the BoM for the Firebase platform
     implementation platform('com.google.firebase:firebase-bom:26.0.0')
+    implementation 'com.google.firebase:firebase-analytics'
 
     // Declare the dependency for the Firebase Authentication library
     // When using the BoM, you don't specify versions in Firebase library dependencies
     implementation 'com.google.firebase:firebase-auth'
 
     // Also declare the dependency for the Google Play services library and specify its version
-    implementation 'com.google.android.gms:play-services-auth:18.1.0'
+    implementation 'com.google.android.gms:play-services-auth:19.0.0'
 }

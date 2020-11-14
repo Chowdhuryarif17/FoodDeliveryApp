@@ -51,8 +51,10 @@ public class LoginActivity extends AppCompatActivity {
                 signIn();
             }
         });
+
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken("871797542070-o2odn9bio6ra3u81gke0c4gvhtiifccr.apps.googleusercontent.com")
+                //.requestIdToken("1085457857731-mpgi8vc9nnmfljnr7g3p74d47qvfo5gh.apps.googleusercontent.com")
+                .requestIdToken(getString(R.string.default_web_client_id))
                 .requestEmail()
                 .build();
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);

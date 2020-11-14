@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "871797542070",
-    "firebase_url": "https://food-delivery-16e19.firebaseio.com",
-    "project_id": "food-delivery-16e19",
-    "storage_bucket": "food-delivery-16e19.appspot.com"
+    "project_number": "1085457857731",
+    "firebase_url": "https://foods-delivery-e7232.firebaseio.com",
+    "project_id": "foods-delivery-e7232",
+    "storage_bucket": "foods-delivery-e7232.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:871797542070:android:eb177d4d5bad837785aa17",
+        "mobilesdk_app_id": "1:1085457857731:android:4a7dabcffa3635da03b676",
         "android_client_info": {
           "package_name": "com.ariful.fooddeliveryapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "871797542070-o2odn9bio6ra3u81gke0c4gvhtiifccr.apps.googleusercontent.com",
+          "client_id": "1085457857731-a4863nd70lek1i9p1b329c933cb7nb2i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ariful.fooddeliveryapp",
+            "certificate_hash": "f41d405ccb80e2efe0488a13baa7474765089791"
+          }
+        },
+        {
+          "client_id": "1085457857731-mpgi8vc9nnmfljnr7g3p74d47qvfo5gh.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDQR8udGUixgBqKlmjBntMzBzwpVJuzd5o"
+          "current_key": "AIzaSyCxbK5zKHLuiG3BrXhScK2f7RHnbW6oI9w"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "871797542070-o2odn9bio6ra3u81gke0c4gvhtiifccr.apps.googleusercontent.com",
+              "client_id": "1085457857731-mpgi8vc9nnmfljnr7g3p74d47qvfo5gh.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
